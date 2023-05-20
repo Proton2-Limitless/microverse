@@ -1,0 +1,26 @@
+*{
+    background-color: brown;
+    display: block;
+    
+}
+
+#title{
+    font-size: larger;
+    color: white;
+
+}
+
+#description{
+    font-size: medium;
+    color: cornflowerblue;
+}
+
+#survey-form{
+    color: deeppink;
+    
+}
+
+# name-label{
+    color: white;
+    font-size: medium;
+}
