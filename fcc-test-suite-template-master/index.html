@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Our Survey</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -21,17 +21,20 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
     <h1 id="title">Our Survey</h1>
-    <p id="description"> This survey aims to analyse the frequncy of the usage of social media by the youth in the country</p>
+    <p id="description">
+      This survey aims to analyse the frequncy of the usage of social media by
+      the youth in the country
+    </p>
 
     <form action="post" id="survey-form">
       <label id="name-label" for="name">Enter Your name</label>
-      <input placeholder="Name" type="text" id="name" required>
+      <input placeholder="Name" type="text" id="name" required />
       <label id="email-label" for="email">Enter Your Email</label>
-      <input placeholder="Email" type="text" id="email" required>
-      <label for="number">Enter Your Number</label>
-      <input placeholder="Number" id="number-label" type="number" id="number" min="5" max="10">
+      <input placeholder="Email" type="email" id="email" required />
+      <label id="number-label" for="number">Enter Your Number</label>
+      <input placeholder="Number" type="number" id="number" min="5" max="10" />
 
       <label for="select"></label>
       <select name="" id="dropdown">
@@ -39,14 +42,17 @@
         <option value="">option 2</option>
       </select>
 
-      <label for="radio"></label>
-      <input type="radio" name="radio 1" >
-      <input type="radio" name="radio 2" >
+      <label for="radio">Yes</label>
+      <input type="radio" name="radio 1" value="1" />
+      <input type="radio" name="radio 2" value="2" />
+      <label for="radio">No</label>
+      <input type="radio" name="radio 1" value="1" />
+      <input type="radio" name="radio 2" value="2" />
 
       <label for="checkboxes"></label>
-      <input type="checkbox" value="1">
-      <input type="checkbox" value="2">
-      <input type="checkbox" value="3">
+      <input type="checkbox" value="1" />
+      <input type="checkbox" value="2" />
+      <input type="checkbox" value="3" />
 
       <label for="comments"></label>
       <textarea name="" id="text-comments" cols="30" rows="10"></textarea>
